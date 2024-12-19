@@ -3,7 +3,95 @@
 @tailwind utilities;
 
 * {
-  font-family: "Poppins", serif;
+  font-family: "JetBrains Mono", serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Add this CSS to your global styles or inside a <style> block */
+@keyframes gradientAnimation {
+  0% {
+    fill: rgb(24, 61, 40);
+  }
+  100% {
+    fill: rgb(9, 85, 54);
+  }
+}
+
+.hover\:fill-gradient:hover {
+  animation: gradientAnimation 2s ease-in-out infinite;
+}
+
+/* editor */
+/* Outer container */
+.code-editor-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Code editor box */
+.code-editor {
+  position: relative;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  font-family: "Courier New", Courier, monospace;
+  color: #dcdcdc;
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+/* Scrollable area */
+.code-editor {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* SVG  */
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 502; /* Full circle length */
+  }
+  100% {
+    stroke-dashoffset: 0; /* Circle complete */
+  }
+}
+
+/* Custom keyframe for the waving hand animation */
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Apply the wave animation */
+.wave-hand {
+  animation: wave 1s ease-in-out infinite;
 }
