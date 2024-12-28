@@ -16,7 +16,7 @@ const Projects = () => {
           initial="hidden"
           whileInView="visible"
           transition={{ duration: 0.5 }}
-          className=" text-4xl md:text-6xl text-green-800 py-10"
+          className=" text-4xl md:text-6xl text-green-800 py-10 dark:text-green-500"
         >
           Projects
         </motion.h1>
