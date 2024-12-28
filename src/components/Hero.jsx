@@ -3,8 +3,6 @@ import { FaDownload, FaCode } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "motion/react";
 const Hero = () => {
-  const textHello = "Hello World! <span className='text-2xl'>👋 </span>";
-
   const downloadFile = () => {
     const link = document.createElement("a");
     link.href = "/public/Web-Developer-Resume-Shanika.pdf";
@@ -34,7 +32,7 @@ const Hero = () => {
             initial={{ y: -80, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-2xl  mt-12"
+            className="text-2xl  mt-12 dark:text-white"
           >
             Hello World!
           </motion.p>
@@ -62,14 +60,14 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.2 }}
           className=" flex flex-col md:flex-row gap-10 my-10"
         >
-          <button className="px-8 py-4 flex flex-row items-center justify-center gap-4 text-lg md:text-xl bg-gradient-to-r from-green-700 to-black text-white  rounded-md shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-300 ">
+          <button className="px-8 py-4 flex flex-row items-center justify-center gap-4 text-lg md:text-xl bg-gradient-to-r from-green-700 to-green-950 text-white  rounded-md shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-300 ">
             <FaCode size={30} />
 
             <span>Projects</span>
           </button>
           <button
             onClick={downloadFile}
-            className="px-8 py-4 flex flex-row items-center justify-center gap-4 text-lg md:text-xl bg-gradient-to-r from-green-700 to-black text-white  rounded-md shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-300"
+            className="px-8 py-4 flex flex-row items-center justify-center gap-4 text-lg md:text-xl bg-gradient-to-r from-green-700 to-green-950 text-white  rounded-md shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-300"
           >
             <FaDownload size={30} />
             Download CV

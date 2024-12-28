@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { FaMoon, FaSun } from "react-icons/fa";
 
 const DarkModeToggle = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,13 +22,13 @@ const DarkModeToggle = () => {
     <>
       <button
         onClick={toggleDarkMode}
-        className={`px-4 py-2 rounded-full ${
-          darkMode ? "bg-yellow-400" : "bg-gray-800"
+        className={`px-2 py-2 rounded-full ${
+          darkMode ? "bg-white" : "bg-green-900"
         } ${
           darkMode ? "text-gray-900" : "text-white"
         } transition-colors duration-200`}
       >
-        {darkMode ? "Light " : "Dark "}
+        {darkMode ? <FaSun size={20} /> : <FaMoon size={20} />}
       </button>
     </>
   );

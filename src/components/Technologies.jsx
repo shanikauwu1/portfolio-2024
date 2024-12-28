@@ -17,7 +17,6 @@ import {
 } from "react-icons/fa";
 
 import { motion } from "motion/react";
-import { CircleSlider } from "./CircleSlider";
 
 const Technologies = () => {
   const varient = {
@@ -36,7 +35,7 @@ const Technologies = () => {
           initial="hidden"
           whileInView="visible"
           transition={{ duration: 0.5 }}
-          className=" text-4xl md:text-6xl text-green-800 py-10"
+          className=" text-4xl md:text-6xl text-green-800 py-10 dark:text-green-500"
         >
           About Me
         </motion.h1>
@@ -50,60 +49,57 @@ const Technologies = () => {
           initial="hidden"
           whileInView="visible"
           transition={{ duration: 1 }}
-          className="flex  justify-center flex-col p-6 gap-10"
+          className="flex  justify-center flex-col  gap-10"
         >
-          <div className=" text-2xl md:text-3xl text-green-800 py-10">
+          <div className=" text-2xl md:text-3xl text-green-800 py-10 dark:text-white">
             My Skills
           </div>
-          <div className="grid grid-cols-1 p-4 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5  bg-gradient-to-r from-green-700 to-black rounded-2xl">
+          <div className="grid grid-cols-1 p-4 gap-4 md:grid-cols-2 xl:grid-cols-5  bg-gradient-to-r from-green-700 to-green-950 rounded-2xl dark:bg-slate-100">
             <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaHtml5 className="cursor-pointer text-5xl  text-green-800" />
+              <FaHtml5 className="text-3xl cursor-pointer md:text-5xl  text-green-800" />
               <p className="text-2xl font-semibold">Html</p>
             </div>
             <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaJs className="cursor-pointer text-5xl  text-green-800" />
-              <p className="text-2xl font-semibold">Java Script</p>
+              <FaJs className="text-3xl cursor-pointer md:text-5xl  text-green-800" />
+              <p className="text-2xl font-semibold">JavaScript</p>
             </div>
             <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaCss3 className="cursor-pointer text-5xl  text-green-800" />
+              <FaCss3 className="text-3xl cursor-pointer md:text-5xl  text-green-800" />
               <p className="text-2xl font-semibold">CSS3</p>
             </div>
             <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaReact className="cursor-pointer text-5xl  text-green-800" />
+              <FaReact className="text-3xl cursor-pointer md:text-5xl  text-green-800" />
               <p className="text-2xl font-semibold">React</p>
             </div>
             <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaPhp className="cursor-pointer text-5xl  text-green-800" />
+              <FaPhp className="text-3xl cursor-pointer md:text-5xl  text-green-800" />
               <p className="text-2xl font-semibold">PHP</p>
             </div>
             <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaBootstrap className="cursor-pointer text-5xl  text-green-800" />
+              <FaBootstrap className="text-3xl cursor-pointer md:text-5xl  text-green-800" />
               <p className="text-2xl font-semibold">Bootstrap</p>
             </div>
             <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaLaravel className="cursor-pointer text-5xl  text-green-800" />
+              <FaLaravel className="text-3xl cursor-pointer md:text-5xl  text-green-800" />
               <p className="text-2xl font-semibold">Laravel</p>
             </div>
             <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaWordpress className="cursor-pointer text-5xl  text-green-800" />
+              <FaWordpress className="text-3xl cursor-pointer md:text-5xl  text-green-800" />
               <p className="text-2xl font-semibold">Wordpress</p>
             </div>
             <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaGitAlt className="cursor-pointer text-5xl  text-green-800" />
+              <FaGitAlt className="text-3xl cursor-pointer md:text-5xl  text-green-800" />
               <p className="text-2xl font-semibold">Git</p>
             </div>
             <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaGitAlt className="cursor-pointer text-5xl  text-green-800" />
-              <p className="text-2xl font-semibold">Git</p>
+              <FaSass className="text-3xl cursor-pointer md:text-5xl  text-green-800" />
+              <p className="text-2xl font-semibold">Sass</p>
             </div>
             {/* <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
               <FaDatabase className="cursor-pointer text-5xl  text-green-800" />
               <p className="text-2xl font-semibold">Mysql</p>
             </div>
-            <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaSass className="cursor-pointer text-5xl  text-green-800" />
-              <p className="text-2xl font-semibold">Sass</p>
-            </div>
+           
             <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
               <FaAngular className="cursor-pointer text-5xl  text-green-800" />
               <p className="text-2xl font-semibold">Angular</p>

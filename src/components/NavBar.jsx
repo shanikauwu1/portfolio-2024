@@ -10,22 +10,33 @@ const NavBar = () => {
   };
   return (
     <>
-      <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b-gray-50 bg-slate-950/90 px-16 py-6 text-white  backdrop-blur-md md:justify-around dark:bg-white">
+      <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b-gray-50 bg-slate-950/90 px-16 py-6 text-white  backdrop-blur-md md:justify-around dark:bg-green-950">
         <ul className="hidden md:flex gap-5 ">
-          <DarkModeToggle />
-          <li className="cursor-pointer text-3xl opacity-70 transition-all duration-300 hover:text-green-800 hover:opacity-100">
-            <FaGithub />
+          <li className="cursor-pointer text-3xl opacity-70 transition-all duration-300 hover:text-green-800 hover:opacity-100 ">
+            <a
+              href="https://github.com/shanikauwu1/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+            </a>
           </li>
 
           <li className="cursor-pointer text-3xl opacity-70 transition-all duration-300 hover:text-green-800 hover:opacity-100">
-            <FaLinkedin />
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>
           </li>
         </ul>
 
         <ul className="hidden md:flex gap-10 ">
           <a
             href="#home"
-            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 text-3xl"
+            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 text-3xl "
           >
             <li>
               <FaHome />
@@ -34,25 +45,25 @@ const NavBar = () => {
 
           <a
             href="#about"
-            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 text-2xl"
+            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 text-2xl lg:text-xl"
           >
             <li>About </li>
           </a>
 
           <a
             href="#projects"
-            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 text-2xl"
+            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 text-2xl lg:text-xl"
           >
             <li>Projects</li>
           </a>
           <a
             href="#contact"
-            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 text-2xl"
+            className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 text-2xl lg:text-xl"
           >
             <li>Contact</li>
           </a>
         </ul>
-
+        <DarkModeToggle />
         <a
           href="#home"
           className="text-4xl font-semibold  bg-gradient-to-r from-white to-green-600 bg-clip-text text-transparent  opacity-90 transition-all duration-300"
@@ -105,11 +116,23 @@ const NavBar = () => {
 
             <ul className="flex gap-5">
               <li className="cursor-pointer text-4xl opacity-70 transition-all duration-300 hover:text-5xl hover:text-black hover:opacity-100">
-                <FaGithub />
+                <a
+                  href="https://github.com/shanikauwu1/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub />
+                </a>
               </li>
 
               <li className="cursor-pointer text-4xl opacity-70 transition-all duration-300 hover:text-5xl hover:text-black hover:opacity-100">
-                <FaLinkedin />
+                <a
+                  href="https://www.linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin />
+                </a>
               </li>
             </ul>
           </div>
