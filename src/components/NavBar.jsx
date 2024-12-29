@@ -24,7 +24,7 @@ const NavBar = () => {
 
           <li className="cursor-pointer text-3xl opacity-70 transition-all duration-300 hover:text-green-800 hover:opacity-100">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/shanikajayawardane/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -127,7 +127,7 @@ const NavBar = () => {
 
               <li className="cursor-pointer text-4xl opacity-70 transition-all duration-300 hover:text-5xl hover:text-black hover:opacity-100">
                 <a
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/in/shanikajayawardane/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -31,7 +31,7 @@ const Contact = () => {
           <ul className="flex gap-5">
             <li className="cursor-pointer text-7xl opacity-70 transition-all duration-300 hover:opacity-100">
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/shanikajayawardane/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
