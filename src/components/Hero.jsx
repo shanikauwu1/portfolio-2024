@@ -60,13 +60,13 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.2 }}
           className=" flex flex-col md:flex-row gap-10 my-10"
         >
-          <button className="px-8 py-4 flex flex-row items-center justify-center gap-4 text-lg md:text-xl bg-gradient-to-r from-green-700 to-green-950 text-white  rounded-md shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-300 ">
-            <a href="#projects">
+          <a href="#projects">
+            <button className="px-8 py-4 flex flex-row items-center justify-center gap-4 text-lg md:text-xl bg-gradient-to-r from-green-700 to-green-950 text-white  rounded-md shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-300 ">
               <FaCode size={30} />
-            </a>
 
-            <span>Projects</span>
-          </button>
+              <span>Projects</span>
+            </button>
+          </a>
           <button
             onClick={downloadFile}
             className="px-8 py-4 flex flex-row items-center justify-center gap-4 text-lg md:text-xl bg-gradient-to-r from-green-700 to-green-950 text-white  rounded-md shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-300"
