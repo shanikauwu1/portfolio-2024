@@ -6,7 +6,7 @@ const Hero = () => {
   const downloadFile = () => {
     const link = document.createElement("a");
     link.href = "/public/Web-Developer-Resume-Shanika.pdf";
-    //link.download = "Web-Developer-Resume-Shanika.pdf";
+    link.download = "Web-Developer-Resume-Shanika.pdf";
     link.click();
   };
   return (
@@ -61,7 +61,9 @@ const Hero = () => {
           className=" flex flex-col md:flex-row gap-10 my-10"
         >
           <button className="px-8 py-4 flex flex-row items-center justify-center gap-4 text-lg md:text-xl bg-gradient-to-r from-green-700 to-green-950 text-white  rounded-md shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-300 ">
-            <FaCode size={30} />
+            <a href="#projects">
+              <FaCode size={30} />
+            </a>
 
             <span>Projects</span>
           </button>
