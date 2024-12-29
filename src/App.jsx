@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import React, { useState, useEffect } from "react";
-import SVGLogo from "./components/svgLogo";
+import SVGLogo from "./components/SVGLogo";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
