@@ -57,8 +57,8 @@ const CardGrid = () => {
       title: "React E-commerce",
       description: `Developed a modern, responsive e-commerce website using React for the front end. 
       The products fetch  from fake API. Tailwind CSS for efficient styling`,
-      link: "https://github.com/shanikauwu1/react-ecommerce-site/",
-      github: "https://rayeli-fashions.netlify.app/",
+      link: "https://rayeli-fashions.netlify.app/",
+      github: "https://github.com/shanikauwu1/react-ecommerce-site/",
     },
 
     {
