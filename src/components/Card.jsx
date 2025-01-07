@@ -55,8 +55,8 @@ const CardGrid = () => {
       id: 3,
       image: Project_3_img,
       title: "React E-commerce",
-      description: `A sleek and responsive weather application built using HTML, CSS, and JavaScript, 
-      powered by the OpenWeather API.`,
+      description: `Developed a modern, responsive e-commerce website using React for the front end. 
+      The products fetch  from fake API. Tailwind CSS for efficient styling`,
       link: "https://github.com/shanikauwu1/react-ecommerce-site/",
       github: "https://rayeli-fashions.netlify.app/",
     },

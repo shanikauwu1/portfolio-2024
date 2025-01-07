@@ -39,11 +39,7 @@ const Technologies = () => {
         >
           About Me
         </motion.h1>
-<<<<<<< HEAD
         <p className=" text-left w-full text-lg md:text-2xl md:w-3/4 md:text-center dark:text-white">
-=======
-        <p className=" text-left w-full text-lg md:text-2xl md:w-3/4 md:text-center   dark:text-white">
->>>>>>> 0fa6021916c551d40160909e15b0877097df3cd4
           I’m passionate about writing efficient code and delivering exceptional
           user experiences.I maintain a keen eye for detail to ensure
           pixel-perfect designs and smooth functionality.
@@ -99,23 +95,6 @@ const Technologies = () => {
               <FaSass className="text-3xl cursor-pointer md:text-5xl  text-green-800" />
               <p className="text-2xl font-semibold">Sass</p>
             </div>
-            {/* <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaDatabase className="cursor-pointer text-5xl  text-green-800" />
-              <p className="text-2xl font-semibold">Mysql</p>
-            </div>
-           
-            <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaAngular className="cursor-pointer text-5xl  text-green-800" />
-              <p className="text-2xl font-semibold">Angular</p>
-            </div>
-            <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaPython className="cursor-pointer text-5xl  text-green-800" />
-              <p className="text-2xl font-semibold">Python</p>
-            </div>
-            <div className="text-black bg-white flex flex-row gap-4 p-4 justify-center items-center rounded-2xl">
-              <FaShopify className="cursor-pointer text-5xl  text-green-800" />
-              <p className="text-2xl font-semibold">Shopify</p>
-            </div> */}
           </div>
         </motion.div>
       </div>
