@@ -1,7 +1,7 @@
 import { FaGithub, FaLink } from "react-icons/fa";
 import Project_1_img from "../assets/project -1.png";
 import Project_2_img from "../assets/project -2.png";
-import Project_3_img from "../assets/project -3.png";
+import Project_3_img from "../assets/project -3.jpg";
 import Project_4_img from "../assets/project -4.png";
 
 // Card component
@@ -54,11 +54,11 @@ const CardGrid = () => {
     {
       id: 3,
       image: Project_3_img,
-      title: "Weather app",
+      title: "React E-commerce",
       description: `A sleek and responsive weather application built using HTML, CSS, and JavaScript, 
       powered by the OpenWeather API.`,
-      link: "https://shanikauwu1.github.io/project-1a/",
-      github: "https://github.com/shanikauwu1/project-1a",
+      link: "https://github.com/shanikauwu1/react-ecommerce-site/",
+      github: "https://rayeli-fashions.netlify.app/",
     },
 
     {

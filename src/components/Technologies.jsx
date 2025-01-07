@@ -39,7 +39,7 @@ const Technologies = () => {
         >
           About Me
         </motion.h1>
-        <p className=" text-left w-full text-lg md:text-2xl md:w-3/4 md:text-center">
+        <p className=" text-left w-full text-lg md:text-2xl md:w-3/4 md:text-center dark:text-white">
           I’m passionate about writing efficient code and delivering exceptional
           user experiences.I maintain a keen eye for detail to ensure
           pixel-perfect designs and smooth functionality.
